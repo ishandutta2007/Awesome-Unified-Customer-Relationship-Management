@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.35" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(20px, -15px); opacity: 0.6; }
+    }
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(12px); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -120; }
+    }
+    @keyframes shimmer {
+      0% { opacity: 0.6; }
+      50% { opacity: 1; }
+      100% { opacity: 0.6; }
+    }
+    .orb-anim1 { animation: pulseOrb 8s ease-in-out infinite alternate; transform-origin: 200px 100px; }
+    .orb-anim2 { animation: pulseOrb 10s ease-in-out infinite alternate; transform-origin: 1000px 260px; }
+    .floating-card-1 { animation: floatCard1 6s ease-in-out infinite; }
+    .floating-card-2 { animation: floatCard2 7s ease-in-out infinite; }
+    .stream-line { stroke-dasharray: 8 12; animation: dashCycle 4s linear infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+    .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" rx="16" />
+  <rect width="1200" height="360" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Animated Ambient Glow Orbs in Background -->
+  <circle cx="200" cy="100" r="160" fill="#6366f1" filter="url(#glow)" class="orb-anim1" />
+  <circle cx="1020" cy="240" r="180" fill="#ec4899" filter="url(#glow)" class="orb-anim2" />
+  <circle cx="600" cy="40" r="120" fill="#3b82f6" filter="url(#glow)" opacity="0.2" />
+
+  <!-- Animated Data Flow Streams (Behind Foreground Content) -->
+  <g opacity="0.35">
+    <path class="stream-line" d="M 50 80 Q 300 20 600 80 T 1150 80" fill="none" stroke="#818cf8" stroke-width="2" />
+    <path class="stream-line" d="M 50 290 Q 350 350 650 280 T 1150 280" fill="none" stroke="#f472b6" stroke-width="2" />
+  </g>
+
+  <!-- Dynamic Visual Feature Cards (Left and Right Accent Wings) -->
+  <!-- Left Side Accent Card: Sales Automation -->
+  <g class="floating-card-1" opacity="0.75" transform="translate(60, 110)">
+    <rect width="160" height="130" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.5" filter="url(#card-shadow)" />
+    <circle cx="35" cy="35" r="16" fill="#4f46e5" fill-opacity="0.3" />
+    <text x="35" y="40" font-size="14" fill="#a5b4fc" text-anchor="middle">⚡</text>
+    <text x="62" y="38" class="body-text" font-size="13" font-weight="600" fill="#e2e8f0">Sales 360°</text>
+    <!-- Progress Indicator -->
+    <rect x="22" y="65" width="116" height="6" rx="3" fill="#334155" />
+    <rect x="22" y="65" width="82" height="6" rx="3" fill="#6366f1" />
+    <text x="22" y="92" class="body-text" font-size="11" fill="#94a3b8">Pipelines &amp; Deals</text>
+    <text x="22" y="110" class="body-text" font-size="11" fill="#38bdf8">Agentforce &amp; AI</text>
+  </g>
+
+  <!-- Right Side Accent Card: Open Source Power -->
+  <g class="floating-card-2" opacity="0.75" transform="translate(980, 110)">
+    <rect width="160" height="130" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.5" filter="url(#card-shadow)" />
+    <circle cx="35" cy="35" r="16" fill="#059669" fill-opacity="0.3" />
+    <text x="35" y="40" font-size="14" fill="#6ee7b7" text-anchor="middle">🌟</text>
+    <text x="62" y="38" class="body-text" font-size="13" font-weight="600" fill="#e2e8f0">Open Source</text>
+    <rect x="22" y="65" width="116" height="6" rx="3" fill="#334155" />
+    <rect x="22" y="65" width="98" height="6" rx="3" fill="#10b981" />
+    <text x="22" y="92" class="body-text" font-size="11" fill="#94a3b8">Self-Hosted Stack</text>
+    <text x="22" y="110" class="body-text" font-size="11" fill="#a7f3d0">60k+ Stars Leader</text>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (Ensured 100% Visibility & Crisp Contrast) -->
+  <!-- Top Category Pill Badge -->
+  <g transform="translate(600, 52)">
+    <rect x="-175" y="0" width="350" height="34" rx="17" fill="url(#badge-grad)" stroke="#818cf8" stroke-width="1.2" />
+    <text x="0" y="22" class="body-text" font-size="12" font-weight="600" fill="#e0e7ff" text-anchor="middle" letter-spacing="1.2">
+      🚀 THE DEFINITIVE UNIFIED CRM CURATION
+    </text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <g transform="translate(600, 145)">
+    <text x="0" y="0" class="title-text" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">
+      Awesome Unified CRM
+    </text>
+  </g>
+
+  <!-- Glowing Accent Line Divider -->
+  <g transform="translate(600, 168)">
+    <rect x="-240" y="0" width="480" height="3" rx="1.5" fill="url(#primary-glow)" />
+  </g>
+
+  <!-- Subtitle Line 1 -->
+  <g transform="translate(600, 215)">
+    <text x="0" y="0" class="body-text" font-size="18" fill="#cbd5e1" text-anchor="middle" font-weight="500">
+      The Curated Guide to Enterprise Cloud &amp; Modern Open-Source Platforms
+    </text>
+  </g>
+
+  <!-- Subtitle Line 2 / Feature Pills Tagline -->
+  <g transform="translate(600, 252)">
+    <text x="0" y="0" class="body-text" font-size="14" fill="#94a3b8" text-anchor="middle">
+      Sales Automation • Omnichannel Support • Marketing Hubs • Self-Hosted RLS &amp; AI Agents
+    </text>
+  </g>
+
+  <!-- Bottom Interactive Highlights Row -->
+  <g transform="translate(600, 308)">
+    <!-- Pill 1: SaaS Leaders -->
+    <g transform="translate(-210, 0)">
+      <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1" />
+      <text x="0" y="4" class="body-text" font-size="11" font-weight="600" fill="#60a5fa" text-anchor="middle">🏢 Enterprise SaaS</text>
+    </g>
+    <!-- Pill 2: Open Source -->
+    <g transform="translate(0, 0)">
+      <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+      <text x="0" y="4" class="body-text" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle">🔓 Open-Source Stack</text>
+    </g>
+    <!-- Pill 3: Community Driven -->
+    <g transform="translate(210, 0)">
+      <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#1e293b" stroke="#f43f5e" stroke-width="1" />
+      <text x="0" y="4" class="body-text" font-size="11" font-weight="600" fill="#fb7185" text-anchor="middle">⭐ 100% Curated</text>
+    </g>
+  </g>
+</svg>
