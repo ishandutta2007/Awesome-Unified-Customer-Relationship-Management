@@ -9,157 +9,164 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Salesforce Customer 360](#salesforce-customer-360)
-  - [HubSpot CRM Platform](#hubspot-crm-platform)
-  - [Microsoft Dynamics 365](#microsoft-dynamics-365)
-  - [Oracle CX](#oracle-cx)
-  - [SAP Customer Experience](#sap-customer-experience)
-  - [Zoho One](#zoho-one)
-  - [Freshworks Unified CRM](#freshworks-unified-crm)
-  - [SugarCRM](#sugarcrm)
-  - [Bitrix24](#bitrix24)
-  - [monday sales CRM](#monday-sales-crm)
 - [Open-Source Software](#-open-source-software)
   - [Twenty](#twenty)
+  - [Odoo CRM](#odoo-crm)
+  - [Chatwoot](#chatwoot)
+  - [Krayin CRM](#krayin-crm)
+  - [Dolibarr ERP CRM](#dolibarr-erp-crm)
+  - [Papercups](#papercups)
+  - [SuiteCRM](#suitecrm)
+  - [erxes](#erxes)
+  - [Frappe CRM](#frappe-crm)
   - [EspoCRM](#espocrm)
   - [BottleCRM](#bottlecrm)
-  - [SuiteCRM](#suitecrm)
-  - [Frappe CRM](#frappe-crm)
-  - [Krayin](#krayin)
-  - [Odoo CRM](#odoo-crm)
-  - [CiviCRM](#civicrm)
   - [Corteza](#corteza)
-  - [Dolibarr](#dolibarr)
+  - [CiviCRM](#civicrm)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global Customer Relationship Management (CRM) market size was valued at approximately **$70–$80 billion in 2024** and is projected to surpass **$150+ billion by 2030–2032** (expanding at an 11–13% CAGR), driven by generative AI agents, revenue operations consolidation, and customer data unification. The sector is **moderately concentrated** at the high-end enterprise layer—where a handful of dominant leaders (Salesforce, Microsoft, Oracle, SAP, HubSpot) command over 50% of overall enterprise spending—yet **moderately fragmented** in the mid-market and SMB segments where specialized vertical CRMs, low-code platforms, and cost-effective open-source alternatives thrive.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Unified Customer Relationship Management platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Unified Customer Relationship Management platforms ranked by company scale (valuation / market capitalization).
 
-### Salesforce Customer 360
-**Type:** Enterprise CRM platform with Agentforce AI  
-Salesforce is the long-standing enterprise CRM leader, offering Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, and a vast ecosystem of apps and integrations. The ISG 2026 Buyers Guide rates Salesforce as Exemplary with an A- grade (84.2% performance), praising its metadata-driven architecture, extensibility, and AI capabilities through Einstein and Agentforce [citation:8]. Pricing starts with a Free Suite for basic contact and opportunity management, scaling to Sales Cloud Max at £440/seat/month for advanced AI and enterprise features [citation:5]. **Trade-off:** Cost transparency across its broad licensing model is a noted challenge, and platform complexity increases significantly with customization [citation:8].
-
-### HubSpot CRM Platform
-**Type:** Integrated CRM, marketing, sales, and service hub  
-HubSpot offers a free CRM tier with contact management, deal tracking, and Breeze AI assistance. Paid Hubs (Sales, Marketing, Service) scale per seat, with Professional and Enterprise tiers unlocking automation, custom reporting, and advanced permissions. Known for its polish, ease of use, and integration depth, though costs escalate substantially at higher tiers for larger teams.
-
-### Microsoft Dynamics 365
-**Type:** Enterprise CRM within Microsoft ecosystem  
-Dynamics 365 Sales provides core sales management, reporting, and dashboards, with connections to Microsoft 365 (Outlook, Teams) for familiar workflows. Enterprise tiers add forecasting, territory management, and Copilot AI for opportunity summaries and email drafting [citation:5]. The ISG Buyers Guide rates Microsoft as B+ (14.7% performance), reflecting solid capability but lower customer experience scores than top leaders [citation:8]. Best suited for organizations already standardized on Microsoft.
-
-### Oracle CX
-**Type:** Cloud CX suite (Fusion Cloud CX)  
-Oracle CX (Sales, Service, Marketing) is part of Oracle's Fusion Cloud applications. The ISG Buyers Guide rates Oracle as Exemplary with an A- grade, placing it among the top leaders alongside Salesforce and HubSpot [citation:8]. Deeply integrated with Oracle ERP and HCM, making it a natural choice for Oracle-centric enterprises.
-
-### SAP Customer Experience
-**Type:** Enterprise CX suite  
-SAP Customer Experience (including SAP Sales Cloud and SAP Service Cloud) integrates with SAP S/4HANA and the broader SAP ecosystem. The ISG Buyers Guide rates SAP as B+ (14.0% performance), indicating solid capability for SAP-standardized organizations [citation:8]. Suited for large enterprises requiring tight ERP-CRM integration.
-
-### Zoho One
-**Type:** Unified business operating system  
-Zoho One bundles 45+ integrated applications including Zoho CRM, Desk, Campaigns, and Analytics for a flat per-employee price. Zoho CRM itself offers a free edition for 3 users, with paid tiers adding scoring rules, forecasting, Blueprint process design, and anomaly detection. The ISG Buyers Guide rates Zoho CRM as B++ (15.7% performance), placing it above Microsoft and SAP in overall scoring [citation:8]. Strong value for SMBs wanting breadth without multiple vendor relationships.
-
-### Freshworks Unified CRM
-**Type:** Unified CRM across sales, marketing, and support  
-Freshworks offers Freshsales (CRM), Freshmarketer, and Freshdesk (support) as an integrated suite. The platform emphasizes ease of use and AI assistance (Freddy AI) for lead scoring and revenue forecasting. Positioned as an accessible alternative to enterprise suites for mid-market organizations.
-
-### SugarCRM
-**Type:** CRM platform with open-source heritage  
-SugarCRM provides sales automation, marketing automation, and customer service with a focus on flexibility and customization. The platform has a long history in the CRM market, with both cloud and on-premises deployment options for enterprise customers requiring data control.
-
-### Bitrix24
-**Type:** Unified collaboration and CRM platform  
-Bitrix24 combines CRM with team collaboration tools (chat, video, tasks, Drive) in a single platform. The free tier is notably generous, including unlimited deals and invoices, 5 GB storage, and CoPilot AI. Suited for small teams wanting CRM bundled with communication and project tools.
-
-### monday sales CRM
-**Type:** Work OS-based CRM  
-monday sales CRM builds on monday.com's Work OS platform, offering customizable boards, dashboards, and automation for sales pipelines. The Basic plan (from £10/seat/month) includes 1,000 active contacts and deals, scaling to 100,000 contacts on Pro (£24/seat/month) with mass emails and sequences [citation:5]. Best for teams wanting maximum flexibility over how they organize sales work, with tolerance for configuration effort.
+| Product | Company | Valuation / Scale | Starting Pricing | Free Tier / Trial Limit | Key Highlights |
+|---|---|---|---|---|---|
+| **Microsoft Dynamics 365** | Microsoft (`MSFT`) | **~$3.1 Trillion** (Market Cap) | **$65/user/month** (Sales Professional) | **30-day free trial** (up to 25 users, sample data included) | Deep Microsoft 365 / Copilot integration, enterprise ERP & omnichannel connectivity. |
+| **Oracle CX (Fusion Cloud)** | Oracle (`ORCL`) | **~$480 Billion** (Market Cap) | **$65/user/month** (Sales Enterprise Edition) | **30-day free trial** ($300 cloud credits, Cloud Free Tier access) | Best for Oracle ERP/HCM enterprise stacks; comprehensive B2B/B2C lifecycle automation. |
+| **SAP Customer Experience (CX)** | SAP (`SAP`) | **~$280 Billion** (Market Cap) | **$58/user/month** (SAP Sales Cloud Standard) | **30-day free trial** (guided sales scenarios and test tenant) | Native integration with SAP S/4HANA enterprise resource planning backbone. |
+| **Salesforce Customer 360** | Salesforce (`CRM`) | **~$280 Billion** (Market Cap) | **$25/user/month** (Starter Suite) | **30-day free trial** (Starter Suite, full contact & deal flow access) | The de facto enterprise standard; features Agentforce AI, Data Cloud, and immense AppExchange. |
+| **HubSpot CRM Platform** | HubSpot (`HUBS`) | **~$35 Billion** (Market Cap) | **$15/seat/month** (Starter Customer Platform) | **Free forever plan** (up to 5 users, 1M contacts, deal tracking & Breeze AI) | Unmatched usability, inbound marketing engine, integrated Sales/Marketing/Service Hubs. |
+| **monday sales CRM** | monday.com (`MNDY`) | **~$13 Billion** (Market Cap) | **$12/seat/month** (Basic CRM, min. 3 seats) | **14-day free trial** (Pro features) + **Free forever Work OS** (up to 2 seats, 1,000 leads) | Built on monday Work OS; hyper-flexible pipeline boards, automations, and custom views. |
+| **Freshworks Unified CRM** | Freshworks (`FRSH`) | **~$4.5 Billion** (Market Cap) | **$9/user/month** (Freshsales Growth, billed annually) | **21-day free trial** (Pro tier features) + **Free forever tier** (up to 3 users, contact & deal management) | Freddy AI assistance, modern UI, seamless support-to-sales omnichannel alignment. |
+| **Zoho One / Zoho CRM** | Zoho Corp. | **~$5 Billion+** (Private est. valuation) | **$14/user/month** (Zoho CRM Standard) | **Free forever plan** (up to 3 users, core lead & contact management) | Unrivaled SMB value; bundles 45+ applications across CRM, finance, and desk in Zoho One. |
+| **SugarCRM** | SugarCRM (Accel-KKR) | **~$600 Million+** (Private est. valuation) | **$49/user/month** (Sugar Sell Essentials, min. 3 users) | **7-day free trial** (guided sandbox access across Sell & Serve) | Flexible cloud/on-prem deployments with strong open-source heritage and AI forecasting. |
+| **Bitrix24** | Bitrix, Inc. | **~$200 Million+** (Private est. valuation) | **$49/month flat** (Basic tier, up to 5 users total) | **Free forever plan** (unlimited users, 5 GB storage, deal management, collaboration tools) | All-in-one suite combining CRM pipelines with native chats, video conferencing, tasks, and Drive. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Unified CRM platforms. The open-source ecosystem spans **modern developer-friendly CRMs**, **established enterprise platforms**, **ERP-integrated solutions**, and **nonprofit-focused systems**.
+Self-hosted, community-driven Unified CRM platforms ranked in descending order of GitHub community stars.
 
 ### Twenty
-**Stack:** TypeScript / NestJS / React / PostgreSQL | **License:** AGPL-3.0 (core)  
-Twenty is widely positioned as the leading modern open-source alternative to Salesforce and HubSpot, with a clean SaaS-like interface and developer-friendly architecture [citation:12]. It supports custom objects, pipelines, workflows, and AI agents, with objects definable as code via the Twenty SDK and versioned like the rest of the stack [citation:9]. REST and GraphQL APIs and webhooks connect it to other tools. Files marked as Enterprise are under a commercial license, while developer packages (SDK) are MIT [citation:9]. Actively maintained with commits in 2026.  
-**Best for:** Teams wanting a modern, flexible CRM they can extend as code, with a SaaS-like experience and no per-seat fees.
-
-### EspoCRM
-**Stack:** PHP / MySQL/PostgreSQL | **License:** AGPL-3.0  
-EspoCRM is a classic, feature-complete CRM covering leads, contacts, opportunities, marketing campaigns, support cases, and a calendar [citation:9]. The Entity Manager adds custom entities, fields, and relationships without code. A REST API connects it to other systems. Reports, workflows, and BPM come with the Advanced Pack, a separately licensed extension [citation:9]. Marmelab's 2026 benchmark praises its clean interface and powerful in-app administration, but notes the home-made backend and frontend frameworks make code customization challenging despite a complete API [citation:4].  
-**Best for:** Organizations wanting a proven, feature-rich CRM with strong out-of-the-box administration and a complete API, accepting a large codebase and AGPL licensing.
-
-### BottleCRM
-**Stack:** Python / Django REST / SvelteKit / Flutter / PostgreSQL | **License:** MIT  
-BottleCRM is a free, open-source, self-hosted, multi-tenant CRM built with Django REST Framework, SvelteKit, and Flutter [citation:3]. It covers leads, accounts, contacts, opportunities, support tickets (with SLA timers, approvals, escalations, macros, and knowledge base), tasks, and invoices. **PostgreSQL Row-Level Security** isolates each organization's data at the database layer, so a single deployment serves one startup or hundreds of tenants. A native Flutter mobile app (iOS + Android) is included — uncommon among open-source CRMs. The REST API is agent-ready (OpenAPI schema, per-user tokens) for AI agents like Claude or Cursor. MIT licensed with no per-seat pricing [citation:3].  
-**Best for:** Teams wanting a genuinely MIT-licensed, multi-tenant CRM with native mobile apps, real support tooling, and AI-agent-ready APIs.
-
-### SuiteCRM
-**Stack:** PHP / MySQL/MariaDB | **License:** AGPL-3.0  
-SuiteCRM is the successor to SugarCRM Community Edition, offering enterprise-class CRM with sales automation, marketing automation, workflow, reporting, and a REST API [citation:4]. It has a large user base and rich plugin ecosystem. Marmelab's benchmark notes the codebase is old with outdated coding practices, a dated UI, and performance challenges, making it less suitable for simple CRM needs or modern development [citation:4].  
-**Best for:** Organizations with existing SuiteCRM expertise or specific legacy requirements, wanting a feature-rich platform despite technical debt.
-
-### Frappe CRM
-**Stack:** Python / Frappe Framework / Vue | **License:** GPL-3.0  
-Frappe CRM is a modern CRM built on the Frappe framework (same ecosystem as ERPNext). It provides lead and deal management, email integration, telephony, and a customizable desk interface [citation:13]. The Frappe ecosystem offers a path to ERPNext for organizations wanting integrated ERP and CRM in one open-source stack.  
-**Best for:** Teams already in or considering the Frappe/ERPNext ecosystem, wanting CRM integrated with broader business operations.
-
-### Krayin
-**Stack:** PHP / Laravel | **License:** MIT  
-Krayin is a low-code CRM with enterprise-grade features built on Laravel [citation:13]. It includes lead and deal pipelines, activity management, email parsing, and a customizable admin panel. The MIT license is permissive for commercial modifications.  
-**Best for:** Laravel developers and teams wanting a permissively licensed, customizable CRM.
+[![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+**Stack:** TypeScript / NestJS / React / PostgreSQL | **License:** AGPL-3.0 (core) / MIT (SDK)  
+Twenty is positioned as the leading modern open-source alternative to Salesforce and HubSpot, featuring a clean SaaS-grade UI and developer-first architecture. It supports custom objects, pipelines, workflow automations, and AI agents, with schema objects definable as code via the Twenty SDK. Features comprehensive REST and GraphQL APIs and webhooks.  
+**Best for:** Teams seeking an extensible modern CRM configured as code without per-seat licensing fees.
 
 ### Odoo CRM
+[![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
 **Stack:** Python / PostgreSQL / OWL JS | **License:** LGPL-3.0 (Community)  
-Odoo CRM is part of the broader Odoo ERP suite, covering sales pipelines, lead management, email integration, and reporting. Marmelab describes Odoo as a "behemoth" covering every feature imaginable, with a huge codebase that typically requires specialized Odoo developers [citation:4]. The Community edition is free; Enterprise adds advanced features and support.  
-**Best for:** Organizations wanting CRM integrated with a full ERP suite (finance, inventory, manufacturing), particularly those already using or planning to adopt Odoo.
+Odoo CRM is a core module within the modular Odoo business suite, managing sales funnels, automated lead scoring, direct VoIP/email sync, and quotation engines. Seamlessly integrates with Odoo's inventory, billing, manufacturing, and e-commerce modules.  
+**Best for:** Businesses looking for CRM coupled with an end-to-end ERP ecosystem.
 
-### CiviCRM
-**Stack:** PHP / MySQL | **License:** AGPL-3.0  
-CiviCRM is a constituent relationship management system designed for nonprofits, NGOs, and advocacy groups [citation:9]. It covers contact management, contributions and fundraising, events, memberships, email marketing, case management, and reports. If you raise donations or run a membership organization, it fits better than a sales-oriented CRM [citation:9].  
-**Best for:** Nonprofits and membership organizations needing donor, member, and event management rather than sales pipelines.
+### Chatwoot
+[![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+**Stack:** Ruby on Rails / Vue.js / PostgreSQL / Redis | **License:** AGPL-3.0  
+Chatwoot is an open-source customer engagement suite and omnichannel CRM alternative to Intercom, Zendesk, and Drift. It unifies customer interactions across Website Live Chat, WhatsApp, Twitter/X, Facebook, Instagram, and Email into a single multi-brand shared inbox with bot workflows and CRM contact profiling.  
+**Best for:** Modern customer support, support-driven sales, and omnichannel real-time messaging.
+
+### Krayin CRM
+[![GitHub stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+**Stack:** PHP / Laravel / MySQL | **License:** MIT  
+Krayin is a customizable low-code CRM platform engineered on Laravel. It provides lead and deal tracking, multi-channel communication capture, visual sales funnels, and extensible modular architecture under an ultra-permissive MIT license.  
+**Best for:** PHP/Laravel developers and agencies needing a clean, fully white-labelable CRM foundation.
+
+### Dolibarr ERP CRM
+[![GitHub stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+**Stack:** PHP / MySQL / MariaDB | **License:** GPL-3.0  
+Dolibarr is an established modular ERP/CRM suite built for small to mid-sized businesses and freelancers. It delivers contact and opportunity management, sales tracking, quotes, commercial proposals, and customer invoicing within an unbloated self-hosted environment.  
+**Best for:** SMBs needing an all-in-one business management and CRM tool on low-spec hosting.
+
+### Papercups
+[![GitHub stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers)  
+**Stack:** Elixir / Phoenix / React / PostgreSQL | **License:** MIT  
+Papercups is an open-source customer messaging platform designed for unified customer communication. It integrates with Slack, email, and live website widgets to let teams converse with leads and customers directly from Slack while maintaining contact history and deal context.  
+**Best for:** Engineering and developer-first teams wanting deep bi-directional Slack-to-customer messaging.
+
+### SuiteCRM
+[![GitHub stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+**Stack:** PHP / MySQL / MariaDB | **License:** AGPL-3.0  
+The open-source successor to SugarCRM Community Edition, SuiteCRM provides deep enterprise CRM functionality including accounts, quotes, contracts, workflow automation, customer self-service portals, and custom reporting.  
+**Best for:** Enterprise deployments requiring complete control, extensive legacy integrations, and deep field customizations.
+
+### erxes
+[![GitHub stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers)  
+**Stack:** TypeScript / Node.js / React / GraphQL / MongoDB | **License:** GPL-3.0  
+erxes is an open-source Customer Experience (CX) and Growth Marketing CRM platform. It blends sales pipelines with marketing automation, shared inboxes, in-app messaging, lead generation forms, and customer loyalty management into an extensible plugin architecture.  
+**Best for:** Companies seeking an all-in-one marketing automation and sales funnel experience.
+
+### Frappe CRM
+[![GitHub stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
+**Stack:** Python / Frappe Framework / Vue.js / MariaDB | **License:** GPL-3.0  
+Frappe CRM delivers a reactive, modern sales experience built natively on the Frappe framework. It includes lead pipelines, automated SLA management, visual deal boards, email sync, and native connectivity to ERPNext.  
+**Best for:** Organizations already leveraging or planning to adopt the Frappe and ERPNext business application ecosystem.
+
+### EspoCRM
+[![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+**Stack:** PHP / MySQL / Single Page App | **License:** AGPL-3.0  
+EspoCRM is a fast, responsive open-source CRM application. It includes comprehensive modules for accounts, contacts, lead qualification, mass emailing, sales forecasting, and support cases, paired with a visual Entity Manager that allows zero-code schema changes.  
+**Best for:** Teams looking for a mature, intuitive classic CRM with built-in entity modeling.
+
+### BottleCRM
+[![GitHub stars](https://img.shields.io/github/stars/MicroPyramid/Django-CRM?style=social&color=white)](https://github.com/MicroPyramid/Django-CRM/stargazers)  
+**Stack:** Python / Django REST / SvelteKit / Flutter / PostgreSQL | **License:** MIT  
+BottleCRM (formerly Django-CRM) is an open-source, multi-tenant CRM platform. It combines contact and opportunity pipelines with support ticketing (SLAs, escalations, knowledge base) and includes native iOS/Android mobile apps built in Flutter, protected by PostgreSQL Row-Level Security (RLS).  
+**Best for:** Teams requiring an MIT-licensed, multi-tenant CRM with mobile apps and AI-agent-friendly REST APIs.
 
 ### Corteza
-**Stack:** Go / Vue / PostgreSQL | **License:** Apache-2.0  
-Corteza is a low-code platform for building custom CRM and business applications [citation:9]. It provides CRM modules alongside messaging and workflow capabilities. The Apache-2.0 license is permissive. Suited for organizations wanting to build a CRM tailored to specific processes rather than adopting a pre-built one.  
-**Best for:** Teams wanting to build a custom CRM on a low-code Apache-licensed platform.
+[![GitHub stars](https://img.shields.io/github/stars/cortezaproject/corteza?style=social&color=white)](https://github.com/cortezaproject/corteza/stargazers)  
+**Stack:** Go / Vue.js / PostgreSQL | **License:** Apache-2.0  
+Corteza is a low-code digital work platform that serves as an open-source alternative to Salesforce. It features a complete CRM template, record automation workflows, role-based access controls, and custom record UI builders.  
+**Best for:** Enterprises wanting a 100% Apache-2.0 licensed low-code foundation for building custom CRM solutions.
 
-### Dolibarr
-**Stack:** PHP / MySQL | **License:** GPL-3.0  
-Dolibarr is a modular open-source ERP and CRM for small and medium businesses, originally from France [citation:15]. CRM features include contacts, leads, opportunities, and activity tracking, alongside invoicing, inventory, and HR modules. Highly modular — enable only the features you need.  
-**Best for:** SMBs wanting an all-in-one ERP + CRM in a single self-hosted package.
+### CiviCRM
+[![GitHub stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
+**Stack:** PHP / MySQL | **License:** AGPL-3.0  
+CiviCRM is a constituent relationship management system tailored specifically for nonprofits, civic organizations, and advocacy groups. It manages donors, pledges, memberships, event ticketing, and targeted advocacy campaigns, integrating smoothly with WordPress, Drupal, and Joomla.  
+**Best for:** Nonprofits, charities, and associations focused on donor and member engagement over commercial sales.
 
 ---
 
 ## 📊 Comparison at a Glance
 
 | Software | License | Stack | Multi-Tenant | Mobile App | Self-Hosted | Best For |
-|----------|---------|-------|--------------|------------|-------------|----------|
+|---|---|---|---|---|---|---|
 | **Salesforce** | Proprietary | Cloud | ✅ | ✅ | ❌ | Enterprise CRM + Agentforce AI |
 | **HubSpot** | Proprietary | Cloud | ✅ | ✅ | ❌ | Polished all-in-one CRM |
 | **Microsoft Dynamics** | Proprietary | Cloud | ✅ | ✅ | ❌ | Microsoft 365 organizations |
 | **Oracle CX** | Proprietary | Cloud | ✅ | ✅ | ❌ | Oracle-centric enterprises |
 | **SAP CX** | Proprietary | Cloud | ✅ | ✅ | ❌ | SAP S/4HANA integration |
 | **Zoho One** | Proprietary | Cloud | ✅ | ✅ | ❌ | SMB breadth at flat price |
-| **Bitrix24** | Proprietary | Cloud | ✅ | ✅ | ❌ | Free CRM + collaboration |
+| **Freshworks** | Proprietary | Cloud | ✅ | ✅ | ❌ | Mid-market omnichannel CRM & Freddy AI |
 | **monday sales CRM** | Proprietary | Cloud | ✅ | ✅ | ❌ | Flexible Work OS pipelines |
-| **Twenty** | AGPL-3.0 | TypeScript | (Check) | ❌ | ✅ | Modern Salesforce alternative |
-| **EspoCRM** | AGPL-3.0 | PHP | (Check) | ❌ | ✅ | Feature-complete classic CRM |
+| **SugarCRM** | Proprietary | Cloud / On-Prem | ✅ | ✅ | ❌ | Deep customization & data control |
+| **Bitrix24** | Proprietary | Cloud | ✅ | ✅ | ❌ | Free CRM + collaboration & tasks |
+| **Twenty** | AGPL-3.0 | TypeScript | ✅ | ❌ | ✅ | Modern Salesforce alternative |
+| **Odoo CRM** | LGPL-3.0 | Python/PostgreSQL | ✅ | ✅ | ✅ | Full ERP + CRM |
+| **Chatwoot** | AGPL-3.0 | Ruby/Vue | ✅ | ✅ | ✅ | Omnichannel customer communication & inbox |
+| **Krayin CRM** | MIT | PHP/Laravel | ✅ | ❌ | ✅ | Permissive Laravel CRM |
+| **Dolibarr** | GPL-3.0 | PHP/MySQL | ✅ | ❌ | ✅ | SMB ERP + CRM |
+| **Papercups** | MIT | Elixir/React | ✅ | ❌ | ✅ | Slack-first customer messaging |
+| **SuiteCRM** | AGPL-3.0 | PHP | ✅ | (Limited) | ✅ | Feature-rich enterprise platform |
+| **erxes** | GPL-3.0 | TypeScript/Node | ✅ | ❌ | ✅ | Marketing automation & growth CRM |
+| **Frappe CRM** | GPL-3.0 | Python/Frappe | ✅ | ❌ | ✅ | ERPNext ecosystem |
+| **EspoCRM** | AGPL-3.0 | PHP | ✅ | ❌ | ✅ | Feature-complete classic CRM |
 | **BottleCRM** | MIT | Django/Flutter | ✅ (RLS) | ✅ Flutter | ✅ | MIT + multi-tenant + mobile |
-| **SuiteCRM** | AGPL-3.0 | PHP | (Check) | (Limited) | ✅ | Feature-rich legacy platform |
-| **Frappe CRM** | GPL-3.0 | Python/Frappe | (Check) | ❌ | ✅ | ERPNext ecosystem |
-| **Krayin** | MIT | PHP/Laravel | (Check) | ❌ | ✅ | Permissive Laravel CRM |
-| **Odoo CRM** | LGPL-3.0 | Python/PostgreSQL | (Check) | ✅ | ✅ | Full ERP + CRM |
-| **CiviCRM** | AGPL-3.0 | PHP/MySQL | (Check) | ❌ | ✅ | Nonprofits + membership |
-| **Corteza** | Apache-2.0 | Go/Vue | (Check) | ❌ | ✅ | Custom low-code CRM |
-| **Dolibarr** | GPL-3.0 | PHP/MySQL | (Check) | ❌ | ✅ | SMB ERP + CRM |
+| **Corteza** | Apache-2.0 | Go/Vue | ✅ | ❌ | ✅ | Custom low-code CRM |
+| **CiviCRM** | AGPL-3.0 | PHP/MySQL | ✅ | ❌ | ✅ | Nonprofits + membership |
 
 ---
 
@@ -172,7 +179,7 @@ Contributions are welcome! If you know of an open-source Unified CRM platform th
 - Stack and license
 - Why it stands out
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between modern developer-friendly CRMs (Twenty, BottleCRM), established enterprise platforms (EspoCRM, SuiteCRM), ERP-integrated solutions (Odoo, Frappe), and specialized systems (CiviCRM for nonprofits). Twenty and BottleCRM are currently the most notable modern alternatives to Salesforce/HubSpot, with BottleCRM offering the unique combination of MIT licensing, native mobile apps, and database-level multi-tenancy.
+Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
 
 ---
 
