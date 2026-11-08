@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Unified-Customer-Relationship-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Unified-Customer-Relationship-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Unified-Customer-Relationship-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Unified-Customer-Relationship-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Unified-Customer-Relationship-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Unified-Customer-Relationship-Management?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Unified-Customer-Relationship-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Unified-Customer-Relationship-Management" alt="Open Issues" /></a>
   <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0 1.0" /></a>
@@ -80,79 +80,79 @@ Curated enterprise-grade cloud CRM suites ranked in **descending order by compan
 Self-hosted, transparent, community-supported CRM projects ranked strictly in **descending order by GitHub stargazers count**.
 
 ### 1. Twenty 🌟
-[![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
 **Stack:** TypeScript / NestJS / React / PostgreSQL | **License:** AGPL-3.0 (core) / MIT (SDK)  
 Twenty is hailed as the flagship modern open-source alternative to Salesforce and HubSpot. It features a slick, high-performance UI, developer-first APIs (REST & GraphQL), customizable relational models, visual workflow automation, and AI agents. Database schema objects can be defined as code using the Twenty SDK and version-controlled with Git.  
 🎯 **Best For:** Engineering teams looking for a modern, extensible CRM codebase without per-seat licensing penalties.
 
 ### 2. Odoo CRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
 **Stack:** Python / PostgreSQL / OWL JavaScript | **License:** LGPL-3.0 (Community)  
 Odoo CRM is a primary module within the expansive Odoo business suite. It provides intuitive Kanban pipeline tracking, automated lead generation via website visitor tracking, VoIP integration, email campaign synchronization, and instant quote generation tied to live warehouse inventory.  
 🎯 **Best For:** Companies needing CRM tightly unified with open-source ERP (invoicing, accounting, warehousing, and HR).
 
 ### 3. Chatwoot 🌟
-[![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
 **Stack:** Ruby on Rails / Vue.js / PostgreSQL / Redis | **License:** AGPL-3.0  
 Chatwoot is a premier open-source customer communication suite and support-led CRM alternative to Intercom, Zendesk, and Drift. It aggregates communications from live chat widgets, WhatsApp, Facebook, Instagram, Twitter/X, Telegram, and Email into a unified multi-brand inbox featuring contact attributes, custom bot automations, and team performance metrics.  
 🎯 **Best For:** Real-time customer support, inbound lead engagement, and omnichannel conversational messaging.
 
 ### 4. Krayin CRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
 **Stack:** PHP / Laravel / MySQL | **License:** MIT  
 Krayin is a clean, modular CRM built entirely upon the robust Laravel PHP framework. It provides visual Kanban deal pipelines, automated email parsing, customer activity scheduling, custom attribute builders, and access controls under a 100% permissive MIT license.  
 🎯 **Best For:** Laravel developers, web agencies, and businesses demanding an unencumbered MIT-licensed CRM foundation.
 
 ### 5. Dolibarr ERP CRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
 **Stack:** PHP / MySQL / MariaDB | **License:** GPL-3.0  
 Dolibarr is a mature, all-in-one ERP and CRM solution tailored for small-to-medium enterprises, foundations, and solo entrepreneurs. It covers customer and prospect accounts, quotes, orders, commercial proposals, point-of-sale (POS), billing, and double-entry bookkeeping without demanding heavy server infrastructure.  
 🎯 **Best For:** SMBs and freelancers seeking a lightweight, modular all-in-one business management platform.
 
 ### 6. Papercups 🌟
-[![GitHub stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white)](https://github.com/papercups-io/papercups/stargazers)  
 **Stack:** Elixir / Phoenix / React / PostgreSQL | **License:** MIT  
 Papercups is an open-source conversational customer engagement system designed to bridge customer relationships straight into Slack. Support reps and sales agents can converse with web visitors and manage customer records directly inside internal Slack channels.  
 🎯 **Best For:** Modern SaaS teams seeking native Slack-to-customer chat synchronization and contact timeline tracking.
 
 ### 7. SuiteCRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
 **Stack:** PHP / MySQL / MariaDB | **License:** AGPL-3.0  
 The venerable open-source continuation of SugarCRM Community Edition, SuiteCRM delivers comprehensive enterprise CRM capabilities including complex account hierarchies, quote and contract management, automated workflow triggers, customer self-service portals, and rich reporting.  
 🎯 **Best For:** Organizations with existing SugarCRM/SuiteCRM workflows seeking enterprise feature depth and data ownership.
 
 ### 8. erxes 🌟
-[![GitHub stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/erxes/erxes?style=social&color=white)](https://github.com/erxes/erxes/stargazers)  
 **Stack:** TypeScript / Node.js / React / GraphQL / MongoDB | **License:** GPL-3.0  
 erxes is an open-source Customer Experience (CX) operating system combining marketing automation, sales pipelines, service desk, shared inboxes, and user engagement into a unified plugin ecosystem.  
 🎯 **Best For:** Growth marketers and businesses wanting an integrated marketing-to-sales funnel engine.
 
 ### 9. Frappe CRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
 **Stack:** Python / Frappe Framework / Vue.js / MariaDB | **License:** GPL-3.0  
 Frappe CRM brings a clean, reactive single-page app interface to the Frappe/ERPNext ecosystem. It delivers automated lead routing, deal stages, email integration, call logs, and instant connectivity to ERPNext's manufacturing, inventory, and accounting modules.  
 🎯 **Best For:** Organizations already utilizing or evaluating ERPNext and the Frappe ecosystem.
 
 ### 10. EspoCRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
 **Stack:** PHP / MySQL / Vanilla JS SPA | **License:** AGPL-3.0  
 EspoCRM is a lightweight, responsive open-source CRM application. Its built-in Entity Manager allows administrators to configure custom relational objects, fields, layouts, and role permissions directly from the browser without writing code.  
 🎯 **Best For:** Teams wanting an agile, classic CRM with powerful visual entity modeling and straightforward REST APIs.
 
 ### 11. BottleCRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/MicroPyramid/Django-CRM?style=social&color=white)](https://github.com/MicroPyramid/Django-CRM/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/MicroPyramid/Django-CRM?style=social&color=white)](https://github.com/MicroPyramid/Django-CRM/stargazers)  
 **Stack:** Python / Django REST / SvelteKit / Flutter / PostgreSQL | **License:** MIT  
 BottleCRM (formerly Django-CRM) is an open-source, multi-tenant CRM engine featuring native **PostgreSQL Row-Level Security (RLS)**. It bundles customer pipelines, support ticketing (SLA timers, escalations, knowledge base), and native cross-platform Flutter mobile applications for iOS and Android.  
 🎯 **Best For:** Python/Django shops seeking native mobile apps, database-level multi-tenancy, and AI-agent-ready REST endpoints.
 
 ### 12. Corteza 🌟
-[![GitHub stars](https://img.shields.io/github/stars/cortezaproject/corteza?style=social&color=white)](https://github.com/cortezaproject/corteza/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/cortezaproject/corteza?style=social&color=white)](https://github.com/cortezaproject/corteza/stargazers)  
 **Stack:** Go / Vue.js / PostgreSQL | **License:** Apache-2.0  
 Corteza is an enterprise low-code platform functioning as a 100% open-source alternative to Salesforce. It features preconfigured CRM templates, drag-and-drop record page builders, business process workflow automation (Corredor), and granular RBAC permissions.  
 🎯 **Best For:** Enterprises requiring an Apache-2.0 licensed low-code foundation to design custom CRM applications.
 
 ### 13. CiviCRM 🌟
-[![GitHub stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/civicrm/civicrm-core?style=social&color=white)](https://github.com/civicrm/civicrm-core/stargazers)  
 **Stack:** PHP / MySQL | **License:** AGPL-3.0  
 CiviCRM is a constituent relationship management platform purpose-built for non-profits, NGOs, charities, and political campaigns. Rather than commercial deal closing, it optimizes donor management, pledge tracking, event ticketing, membership dues, and advocacy mailings.  
 🎯 **Best For:** Nonprofits, associations, and public-interest groups needing donor and civic engagement management.
@@ -216,7 +216,7 @@ Contributions are warmly welcomed! If you know of an innovative SaaS platform or
 ### Guidelines for Submissions:
 1. **Quality & Activity:** The project must be actively maintained (recent releases/commits within the past 12 months).
 2. **Open Source Authenticity:** Open-source entries must have public source repositories with recognized OSI or open licenses.
-3. **Structured Format:** Follow the standard format including project name, website/repo link, star badge, technology stack, license, and brief description.
+3. **Structured Format:** Follow the standard format including project name, website/repo link, Stars_Badge, technology stack, license, and brief description.
 4. **Awesome Master List:** Check out the parent curation list at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated tech stacks.
 
 ---
